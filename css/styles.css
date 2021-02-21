@@ -1,0 +1,155 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+#title{
+  background-color: #FF4c68;
+  position: relative;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+h1{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+a{
+  font-family: 'Ubuntu', sans-serif;
+}
+.iphone{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar{
+  padding-bottom: 4.5rem;
+  padding-left: 0;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+h2{
+  font-family: 'Montserrat-Bold';
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h3{
+  font-family: 'Montserrat-bold', sans-serif;
+  font-size: 1.5rem;
+  color: black;
+}
+.feature-box{
+  text-align: center;
+  padding:5%;
+  color: gray;
+}
+p{
+  font-family: sans-serif;
+  text-align: center;
+}
+.icon{
+  color: red;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #FF4c68;
+}
+/* testimonials */
+
+#testimonials{
+  text-align: center;
+  background-color:#FF4c68;
+  color:#fff;
+}
+.testimonial-image{
+  border-radius: 100%;
+  width: 15%;
+  height: 15%;
+  margin: 20px;
+}
+#press{
+  background-color:#FF4c68;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-image{
+  width: 15%;
+  margin: 20px 20px 15px 20px;
+
+}
+.carousel-item{
+  padding: 7% 15%;
+  margin: 0;
+
+}
+#pricing{
+  text-align: center;
+  padding: 100px;
+  position: relative;
+}
+.card-deck{
+  padding:100px;
+  margin: 0;
+
+}
+.card{
+  width: 250px;
+  margin: 5px;
+  height: 400px;
+}
+.btncolor{
+  background-color:#28527a;
+}
+@media (max-width:1020px){
+#title{
+  text-align:center;
+}
+  .iphone{
+    position: static;
+    transform: rotate(0);
+  }
+}
+#cta{
+  text-align: center;
+  font-family: 'Montserrat-Bold', sans-serif;
+  background-color: #FF4c68;
+  padding:3% 15%;
+  border: 0;
+}
+.cta-h3{
+font-family: 'Montserrat-Bold', sans-serif;
+color: white;
+font-size: 2.6rem;
+padding: 0 20% 0 20%;
+}
+#footer{
+  background-color: #FFF;
+  padding: 3% 10%;
+  text-align: center;
+
+}
+.Contact{
+  padding-top: 3%;
+  padding-bottom: 3%;
+  margin: 2% 1%;
+}
